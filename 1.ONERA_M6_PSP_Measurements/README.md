@@ -32,21 +32,21 @@ The script reads `.tif` files containing PSP data, calibrates coordinates to phy
 ### 1. Calibrated PSP Images
 The calibrated PSP images show the spanwise and chordwise pressure distribution on the ONERA M6 wing.
 
-![Calibrated PSP Image](images/example_Cp_plot.png)
+![Calibrated PSP Image](images/V250_0deg_Plot.png)
 
 ---
 
 ### 2. Pressure Coefficient (Cp) Maps
 The Pressure Coefficient (Cp) maps illustrate flow behavior and surface pressure variations.
 
-![Pressure Coefficient Map](images/example_Cp_map.png)
+![Pressure Coefficient Map](images/V250_0deg_Plot_Cp.png)
 
 ---
 
 ### 3. Pressure Profiles at Spanwise Stations
-Pressure profiles are generated at specific non-dimensional spanwise locations \( x/b \): [0.2, 0.44, 0.6, 0.8, 0.9].
+Pressure profiles are generated at specific spanwise locations \( x/b \): [0.2, 0.44, 0.6, 0.8, 0.9].
 
-![Spanwise Pressure Profiles](images/spanwise_pressure_profile.png)
+![Spanwise Pressure Profiles](images/V250_0deg_Plot_Spanwise.png)
 
 ---
 
