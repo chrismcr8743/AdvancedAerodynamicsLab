@@ -9,19 +9,17 @@ This MATLAB script processes Particle Image Velocimetry (PIV) data collected in 
 
 ---
 
----
-
 ## Outputs  
 
 ### 1. Mean Velocity Field Visualization  
 Quiver plots of the mean velocity vectors for the cylinder and ONERA M6 wing at different angles of attack (AOA).  
-![Mean Velocity Field](images/mean_velocity_field.png)
+![Mean Velocity Field](images/MeanVelocityField_Cylinder.png)
 
 ---
 
 ### 2. Velocity Profiles  
-Smoothed velocity profiles at upstream, first downstream, and second downstream locations.  
-![Velocity Profiles](images/velocity_profiles.png)
+Smoothed velocity profiles at upstream and downstream locations.  
+![Velocity Profiles](images/DownStreamVelocityProfiles.png)
 
 ---
 
@@ -29,28 +27,22 @@ Smoothed velocity profiles at upstream, first downstream, and second downstream 
 
 #### U-Component of Velocity  
 Contour plot showing the horizontal velocity field (U).  
-![Contour U-Component](images/contour_u_component.png)
+![Contour U-Component](images/VelocityU_Cylinder.png)
 
 #### V-Component of Velocity  
 Contour plot showing the vertical velocity field (V).  
-![Contour V-Component](images/contour_v_component.png)
+![Contour V-Component](images/VelocityV_Cylinder.png)
 
 #### Velocity Magnitude  
 Overall velocity magnitude computed from U and V components.  
-![Velocity Magnitude](images/velocity_magnitude_contour.png)
+![Velocity Magnitude](images/VelocityMagnitude_Cyliner.png)
 
 ---
 
 ### 4. Drag Coefficient Analysis  
 Drag coefficients are calculated using control volume analysis and plotted alongside the mean velocity field.  
-![Control Volume Drag](images/control_volume_analysis.png)
+![Control Volume Drag](images/ControlVolume_Cylinder.png)
 
 ---
 
-## Usage  
-
-1. Clone the repository and ensure you have MATLAB installed.  
-   ```bash
-   git clone https://github.com/yourusername/PIV_WaterTunnel_Analysis.git
-   cd PIV_WaterTunnel_Analysis
 
